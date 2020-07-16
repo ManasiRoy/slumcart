@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 25px;
+    position: relative;
 
     .logo-container {
         font-size: 40px;
@@ -15,7 +16,7 @@
     .options {
         width: 50%;
         display: flex;
-        align-self: center;
+        align-items: center;
         justify-content: flex-end;
 
         .option {
